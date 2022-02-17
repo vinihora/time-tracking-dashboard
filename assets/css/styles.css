@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-bg {
+    background-color: hsl(226, 43%, 10%);
+}
+
+.content {
+    width: 75%;
+    height: 70vh;
+    margin: 10vh auto;
+    min-width: 900px;
+    min-height: 600px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: auto;
+}
+
+.card-column {
+    width: 25%;
+    height: 70vh;
+    margin: 0 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 200px;
+}
+
+.card {
+    background-color: hsl(235, 46%, 20%);
+    width: 100%;
+    height: 35vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-big {
+    background-color: hsl(235, 46%, 20%);
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.color-card-big{
+    width: 100%;
+    height: 70%;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.inside-card {
+    width: 100%;
+    height: 80%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 18px;
+    margin: auto auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.profile-image {
+    width: 30%;
+    margin-left: 10%;
+    border: solid white 3px;
+    border-radius: 100%;
+    margin-top: 15%;
+}
+
+.principal-card-text {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.principal-card-subtitle {
+    color: hsl(237, 68%, 94%);
+    font-weight: 200;
+    font-size: 1.4rem;
+}
+
+.principal-card-title {
+    color: hsl(237, 68%, 94%);
+    font-size: 4.3rem;
+    font-weight: 300;
+}
+
+.card-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.card-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30%;
+    margin-top: 8%;
+    width: 100%;
+    font-
+}
+
+.card-time {
+    margin-top: 15%;
+    font-size: 6rem;
+    font-weight: 300;
+    color: white;
+}
+
+.past-week-card {
+    margin-top: 5%;
+    color: hsl(235, 45%, 61%);
+    font-weight: 200;
+}
