@@ -47,6 +47,9 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    background-position-x: 90%;
+    background-repeat:no-repeat;
+
 }
 
 .card-big {
@@ -118,7 +121,6 @@ body {
     gap: 30%;
     margin-top: 8%;
     width: 100%;
-    font-
 }
 
 .card-time {
@@ -132,4 +134,18 @@ body {
     margin-top: 5%;
     color: hsl(235, 45%, 61%);
     font-weight: 200;
+}
+
+.card-icon-image {
+    height: 100%;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+    .flex-container {
+
+        display: flex wrap;
+        
+    }
+    
 }
